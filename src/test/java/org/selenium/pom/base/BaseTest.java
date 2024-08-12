@@ -42,8 +42,8 @@ public class BaseTest {
     @BeforeMethod
     public synchronized void setUp(@Optional String browserName)
     {
-//        String browser = System.getProperty("browser", browserName);
-        String browser = "CHROME";
+        String browser = System.getProperty("browser", browserName);
+//        String browser = "CHROME";
 //        setDriver(new DriverManagerOriginal().initializeDriver(browser));
         setDriver(DriverManagerFactory.getManager(DriverType.valueOf(browser)).createDriver());
         System.out.println("Current Thread: "+Thread.currentThread().getId()+" , Driver : "+getDriver());
