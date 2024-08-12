@@ -1,0 +1,13 @@
+{
+  "firstName": "Tom",
+  "lastName": "Hardy",
+  "companyName": "Google",
+  "country": "India",
+  "addLine1": "3812",
+  "addLine2": "Larkin St",
+  "city": "Thane",
+  "state": "Maharashtra",
+  "postalCode": "421212",
+  "phone": "9291929193",
+  "email": "test@example.com"
+}
